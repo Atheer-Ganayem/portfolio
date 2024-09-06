@@ -29,24 +29,6 @@ export const projects: Project[] = [
     accounts: [{ email: "user@example.com", password: "123456" }],
   },
   {
-    title: "Swipe",
-    description:
-      "Swipe is a dynamic social media application that revolutionizes the way users interact and share content online. With a sleek design and user-friendly interface, Swipe allows users to create profiles, log in, follow, like, comment ,and post. Whether you're sharing moments from your daily life, engaging with friends, or discovering new content, Swipe provides a vibrant community and robust features to enhance your social media experience.",
-    link: "https://swipe-blond.vercel.app",
-    tech: [
-      { title: "Next.js", icon: NextjsOriginal },
-      { title: "React", icon: ReactOriginal },
-      { title: "Tailwind", icon: TailwindcssOriginal },
-      { title: "Node.js", icon: NodejsOriginalWordmark },
-      { title: "MongoDB", icon: MongodbOriginal },
-      { title: "Typescript", icon: TypescriptOriginal },
-    ],
-    imagesPath: "/projects/swipe/",
-    images: ["1.png", "2.png"],
-    githubRepo: "https://github.com/Atheer-Ganayem/swipe",
-    accounts: [{ email: "user@example.com", password: "123456" }],
-  },
-  {
     title: "Chatify",
     description:
       "Chatify is a sleek and modern real-time messaging app designed for seamless direct messaging (DM) experiences. With a focus on speed and simplicity, Chatify allows users to connect and communicate instantly, providing a smooth and intuitive interface for one-on-one conversations. Whether you're catching up with friends, coordinating plans, or just staying in touch, Chatify ensures your messages are delivered and received in real-time. Experience the future of direct messaging with Chatify—fast, reliable, and user-friendly.",
@@ -77,5 +59,23 @@ export const projects: Project[] = [
       { email: "user1@example.com", password: "123456" },
       { email: "user2@example.com", password: "123456" },
     ],
+  },
+  {
+    title: "Swipe",
+    description:
+      "Swipe is a dynamic social media application that revolutionizes the way users interact and share content online. With a sleek design and user-friendly interface, Swipe allows users to create profiles, log in, follow, like, comment ,and post. Whether you're sharing moments from your daily life, engaging with friends, or discovering new content, Swipe provides a vibrant community and robust features to enhance your social media experience.",
+    link: "https://swipe-blond.vercel.app",
+    tech: [
+      { title: "Next.js", icon: NextjsOriginal },
+      { title: "React", icon: ReactOriginal },
+      { title: "Tailwind", icon: TailwindcssOriginal },
+      { title: "Node.js", icon: NodejsOriginalWordmark },
+      { title: "MongoDB", icon: MongodbOriginal },
+      { title: "Typescript", icon: TypescriptOriginal },
+    ],
+    imagesPath: "/projects/swipe/",
+    images: ["1.png", "2.png"],
+    githubRepo: "https://github.com/Atheer-Ganayem/swipe",
+    accounts: [{ email: "user@example.com", password: "123456" }],
   },
 ];
