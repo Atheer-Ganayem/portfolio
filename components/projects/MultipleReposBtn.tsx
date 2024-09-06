@@ -12,7 +12,7 @@ const MultipleReposBtn = ({ repos }: { repos: GithubRepo[] }) => {
           target="_blank"
           className="bg-foreground text-content1"
         >
-          Github ss
+          Github
         </Button>
       </DropdownTrigger>
       <DropdownMenu aria-label="Static Actions">
