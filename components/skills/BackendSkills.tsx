@@ -10,12 +10,12 @@ import {
 import SkillsCard from "./SkillsCard";
 
 const skills = [
+  { text: "Go", icon: GoOriginal },
   { text: "Node.js", icon: NodejsOriginalWordmark },
   { text: "Express.js", icon: ExpressOriginal },
   { text: "TypeScript", icon: TypescriptOriginal },
   { text: "MongoDB", icon: MongodbOriginal },
   { text: "Sqlite", icon: SqliteOriginal },
-  { text: "Go (Learning...)", icon: GoOriginal },
 ];
 
 const BackendSkills = () => {

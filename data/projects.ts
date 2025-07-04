@@ -1,4 +1,5 @@
 import {
+  GoOriginal,
   ReactOriginal,
   NextjsOriginal,
   TailwindcssOriginal,
@@ -32,12 +33,12 @@ export const projects: Project[] = [
     title: "Chatify",
     description:
       "Chatify is a sleek and modern real-time messaging app designed for seamless direct messaging (DM) experiences. With a focus on speed and simplicity, Chatify allows users to connect and communicate instantly, providing a smooth and intuitive interface for one-on-one conversations. Whether you're catching up with friends, coordinating plans, or just staying in touch, Chatify ensures your messages are delivered and received in real-time. Experience the future of direct messaging with Chatify—fast, reliable, and user-friendly.",
-    link: "https://chatify-2.vercel.app/login",
+    link: "https://chatify-3-0.vercel.app",
     tech: [
+      { title: "Go", icon: GoOriginal },
       { title: "Next.js", icon: NextjsOriginal },
       { title: "React", icon: ReactOriginal },
       { title: "Tailwind", icon: TailwindcssOriginal },
-      { title: "Node.js", icon: NodejsOriginalWordmark },
       { title: "MongoDB", icon: MongodbOriginal },
       { title: "Typescript", icon: TypescriptOriginal },
       { title: "Express.js", icon: ExpressOriginal },
@@ -45,16 +46,7 @@ export const projects: Project[] = [
     ],
     imagesPath: "/projects/chatify/",
     images: ["1.png"],
-    githubRepo: [
-      {
-        name: "Front-end",
-        url: "https://github.com/Atheer-Ganayem/Chatify-2.0-client",
-      },
-      {
-        name: "Back-end (real-time side)",
-        url: "https://github.com/Atheer-Ganayem/Chatify-2.0-server",
-      },
-    ],
+    githubRepo: "https://github.com/Atheer-Ganayem/Chatify-3.0",
     accounts: [
       { email: "user1@example.com", password: "123456" },
       { email: "user2@example.com", password: "123456" },
