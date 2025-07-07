@@ -6,8 +6,10 @@ import {
   NodejsOriginalWordmark,
   MongodbOriginal,
   TypescriptOriginal,
-  ExpressOriginal,
   SocketioOriginal,
+  AmazonwebservicesOriginalWordmark,
+  GoLine,
+  GoOriginalWordmark,
 } from "devicons-react";
 
 export const projects: Project[] = [
@@ -31,18 +33,46 @@ export const projects: Project[] = [
   },
   {
     title: "Chatify",
-    description:
-      "Chatify is a sleek and modern real-time messaging app designed for seamless direct messaging (DM) experiences. With a focus on speed and simplicity, Chatify allows users to connect and communicate instantly, providing a smooth and intuitive interface for one-on-one conversations. Whether you're catching up with friends, coordinating plans, or just staying in touch, Chatify ensures your messages are delivered and received in real-time. Experience the future of direct messaging with Chatify—fast, reliable, and user-friendly.",
+    description: `Real-time direct messaging app for seamless one-on-one conversations.
+
+    ##Features
+    🔹 Instant messaging with real-time updates (WebSocket)
+
+    🔹 Sending messages, deleting messages, and creating conversations are all done in real-time
+
+    🔹 User authentication and protected routes (JWT)
+
+    🔹 User status (online/offline)
+    
+    🔹 Profile avatars with image upload (stored on AWS S3)
+
+    🔹 Account settings (chaning name, password and avatar)
+
+    🔹 Notifications
+
+    🔹 Responsive, clean UI for desktop and mobile
+
+    ##Tech Stack
+    Frontend: Next.js, React, Tailwind CSS, TypeScript
+
+    Backend: Go (Gin Framework), Gorilla WebSocket
+
+    Storage: AWS S3
+
+    Database: MongoDB
+
+    `,
     link: "https://chatify-3-0.vercel.app",
     tech: [
       { title: "Go", icon: GoOriginal },
+      { title: "Gin", icon: GoOriginalWordmark },
+      { title: "Gorilla Websockets", icon: GoOriginalWordmark },
       { title: "Next.js", icon: NextjsOriginal },
       { title: "React", icon: ReactOriginal },
       { title: "Tailwind", icon: TailwindcssOriginal },
       { title: "MongoDB", icon: MongodbOriginal },
       { title: "Typescript", icon: TypescriptOriginal },
-      { title: "Express.js", icon: ExpressOriginal },
-      { title: "Socket.io", icon: SocketioOriginal },
+      { title: "AWS S3", icon: AmazonwebservicesOriginalWordmark },
     ],
     imagesPath: "/projects/chatify/",
     images: ["1.png"],
