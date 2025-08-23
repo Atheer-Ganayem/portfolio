@@ -8,8 +8,12 @@ import ProjectAccounts from "./ProjectAccounts";
 
 const Project = ({ project }: { project: Project }) => {
   return (
-    <Card className="relative flex flex-col h-fit">
-      <a href={project.link || ""} target="_blank">
+    <Card
+      className={`relative flex flex-col h-fit ${
+        project.title === "SnapWS" && "border-2 border-yellow-500"
+      }`}
+    >
+      <a href={project.link || (project.githubRepo as string) || ""} target="_blank">
         <ProjectImages path={project.imagesPath} images={project.images} />
       </a>
       <div className="p-5 flex flex-col gap-4">

@@ -6,34 +6,40 @@ import {
   NodejsOriginalWordmark,
   MongodbOriginal,
   TypescriptOriginal,
-  SocketioOriginal,
   AmazonwebservicesOriginalWordmark,
-  GoLine,
   GoOriginalWordmark,
 } from "devicons-react";
 
 export const projects: Project[] = [
   {
-    title: "EcoAlt",
-    description:
-      "Eco-Alt is an innovative e-commerce web app developed as a school project to promote sustainable living through eco-friendly products. The platform offers a diverse range of environmentally conscious alternatives to everyday items, such as plastic water bottles and plastic boxes. Designed with user experience in mind, Eco-Alt provides a seamless shopping experience where users can easily browse, compare, and purchase products that help reduce their ecological footprint. Discover how small changes can make a big difference with Eco-Alt, your go-to source for sustainable alternatives.",
-    link: "https://eco-alt.vercel.app",
-    tech: [
-      { title: "next.js", icon: NextjsOriginal },
-      { title: "react", icon: ReactOriginal },
-      { title: "tailwind", icon: TailwindcssOriginal },
-      { title: "node.js", icon: NodejsOriginalWordmark },
-      { title: "mongodb", icon: MongodbOriginal },
-      { title: "typescript", icon: TypescriptOriginal },
-    ],
-    imagesPath: "/projects/eco-alt/",
-    images: ["1.png", "2.png"],
-    githubRepo: "https://github.com/Atheer-Ganayem/new-EcoAlt",
-    accounts: [{ email: "user@example.com", password: "123456" }],
+    title: "SnapWS",
+    description: `Websocket library built in Go.
+
+    ##Features
+    🔹 Minimal and easy to use API.
+
+    🔹 Fully passes the autobahn-testsuite
+
+    🔹 Automatic handling of ping/pong and close frames
+
+    🔹 Connection management built-in (useful when communicating between different clients like chat apps)
+
+    🔹 Room manager built-in (usefull for apps like group chats)
+    
+    🔹 Built-in easy to use rate limiter
+
+    🔹 Written completely in standard library amd Go offical libraries, no external libraries imported
+
+    🔹 Support for middlewares and connect/disconnect hooks.
+    `,
+    tech: [{ title: "Go", icon: GoOriginal }],
+    imagesPath: "/projects/snapws/",
+    images: ["ws-logo.png"],
+    githubRepo: "https://github.com/Atheer-Ganayem/SnapWS",
   },
   {
     title: "Chatify",
-    description: `Real-time direct messaging app for seamless one-on-one conversations.
+    description: `Real-time direct messaging app for seamless one-on-one conversations made with my own Websocket library "SnapWS".
 
     ##Features
     🔹 Instant messaging with real-time updates (WebSocket)
@@ -55,7 +61,7 @@ export const projects: Project[] = [
     ##Tech Stack
     Frontend: Next.js, React, Tailwind CSS, TypeScript
 
-    Backend: Go (Gin Framework), Gorilla WebSocket
+    Backend: Go (Gin Framework), SnapWS (my Weboscket library)
 
     Storage: AWS S3
 
@@ -66,7 +72,7 @@ export const projects: Project[] = [
     tech: [
       { title: "Go", icon: GoOriginal },
       { title: "Gin", icon: GoOriginalWordmark },
-      { title: "Gorilla Websockets", icon: GoOriginalWordmark },
+      { title: "SnapWS", icon: GoOriginalWordmark },
       { title: "Next.js", icon: NextjsOriginal },
       { title: "React", icon: ReactOriginal },
       { title: "Tailwind", icon: TailwindcssOriginal },
@@ -81,6 +87,24 @@ export const projects: Project[] = [
       { email: "user1@example.com", password: "123456" },
       { email: "user2@example.com", password: "123456" },
     ],
+  },
+  {
+    title: "EcoAlt",
+    description:
+      "Eco-Alt is an innovative e-commerce web app developed as a school project to promote sustainable living through eco-friendly products. The platform offers a diverse range of environmentally conscious alternatives to everyday items, such as plastic water bottles and plastic boxes. Designed with user experience in mind, Eco-Alt provides a seamless shopping experience where users can easily browse, compare, and purchase products that help reduce their ecological footprint. Discover how small changes can make a big difference with Eco-Alt, your go-to source for sustainable alternatives.",
+    link: "https://eco-alt.vercel.app",
+    tech: [
+      { title: "next.js", icon: NextjsOriginal },
+      { title: "react", icon: ReactOriginal },
+      { title: "tailwind", icon: TailwindcssOriginal },
+      { title: "node.js", icon: NodejsOriginalWordmark },
+      { title: "mongodb", icon: MongodbOriginal },
+      { title: "typescript", icon: TypescriptOriginal },
+    ],
+    imagesPath: "/projects/eco-alt/",
+    images: ["1.png", "2.png"],
+    githubRepo: "https://github.com/Atheer-Ganayem/new-EcoAlt",
+    accounts: [{ email: "user@example.com", password: "123456" }],
   },
   {
     title: "Swipe",
